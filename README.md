@@ -1,5 +1,5 @@
 # prometheus-blackbox-percentiles
-This python code will calculate the P50, P90, and P99 values from any Prometheus Blackbox exporter job log file. I wrote this because the Prometheus blackbox exporter does not support histogram buckets, making it difficult to calculate percentiles.
+This python code will calculate the P50, P90, and P99 values from any Prometheus Blackbox exporter job log file (syslog). I wrote this because the Prometheus blackbox exporter does not support histogram buckets, making it difficult to calculate percentiles.
 
 ## Dependencies
 `pip3 install tabulate` 
